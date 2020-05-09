@@ -1,5 +1,3 @@
-#Install Minio on Ubuntu 18.04
-
 https://www.digitalocean.com/community/tutorials/how-to-install-go-on-ubuntu-18-04
 
 https://golang.org/dl/
