@@ -52,3 +52,21 @@ https://linuxhint.com/install_minio_ubuntu_1804/
     sudo systemctl status minio
 
     cd ~
+    
+    sudo ufw default deny incoming
+    sudo ufw default allow outgoing
+    sudo ufw allow ssh
+    sudo ufw allow 9000
+    sudo ufw enable
+    sudo ufw allow http
+    sudo ufw allow https
+    sudo ufw status verbose
+    
+    sudo apt install software-properties-common
+    sudo add-apt-repository universe
+    sudo apt update
+    sudo apt install certbot
+    sudo certbot certonly --standalone -d minio-server.your_domain
+    sudo cp /etc/letsencrypt/live/minio-server.your_domain_name/privkey.pem /etc/minio/certs/private.key
+    sudo cp /etc/letsencrypt/live/minio-server.your_domain_name/fullchain.pem /etc/minio/certs/public.crt
+    sudo chown minio:minio /etc/minio/certs/private.key
