@@ -70,3 +70,6 @@ https://linuxhint.com/install_minio_ubuntu_1804/
     sudo cp /etc/letsencrypt/live/minio-server.your_domain_name/privkey.pem /etc/minio/certs/private.key
     sudo cp /etc/letsencrypt/live/minio-server.your_domain_name/fullchain.pem /etc/minio/certs/public.crt
     sudo chown minio:minio /etc/minio/certs/private.key
+    sudo chown minio:minio /etc/minio/certs/public.crt
+    sudo systemctl restart minio
+    
