@@ -1,6 +1,18 @@
 # Setup MinIO on Ubuntu 20.04 LTS with Let's Encrypt SSL
 
+✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨  
+SUPPORT MY WORK - Everything Helps Thanks  
+YouTube 🔗 <https://YouTube.GetMeTheGeek.com>  
+Buy Me a Coffee ☕ <https://www.buymeacoffee.com/getmethegeek>  
+Hire US 🔗 <https://getmethegeek.com>  
+Digital Ocean referral 🔗 <https://tiny.cc/plxdigitalocean>  
+✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨  
+
+## Google Download Link for Go!
+
 <https://golang.org/dl/>
+
+## Install Go  
 
 ```console
 wget -c https://dl.google.com/go/go1.14.2.linux-amd64.tar.gz
@@ -13,9 +25,7 @@ go version
 rm go1.14.2.linux-amd64.tar.gz
 ```
 
-<https://www.digitalocean.com/community/tutorials/how-to-set-up-an-object-storage-server-using-minio-on-ubuntu-18-04>
-
-<https://linuxhint.com/install_minio_ubuntu_1804/>
+## Install MinIO on Ubuntu 20.04 LTS
 
 ```console
 cd ~
