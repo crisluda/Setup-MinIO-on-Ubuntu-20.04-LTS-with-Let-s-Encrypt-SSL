@@ -14,6 +14,7 @@ rm go1.14.2.linux-amd64.tar.gz
 ```
 
 <https://www.digitalocean.com/community/tutorials/how-to-set-up-an-object-storage-server-using-minio-on-ubuntu-18-04>
+
 <https://linuxhint.com/install_minio_ubuntu_1804/>
 
 ```console
